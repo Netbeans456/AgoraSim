@@ -11,7 +11,7 @@ package com.mycompany.ocorrencia;
 public class UuarioDoSistema {
     private int idUsuario;
     private String login;
-    private String senhas;
+    private String senha;
     private String perfil;
     
     public boolean autenticarSitema(){
@@ -27,4 +27,26 @@ public class UuarioDoSistema {
     }
     
     //login
+    public String getLogin(){
+        return login;
+    }
+    public void setLogin(String _login){
+        this.login = _login;
+    }
+    
+    //senhas
+    public String getSenha(){
+        return senha;
+    }
+    public void setSenha(String _senha){
+        this.senha = _senha;
+    }
+    
+    //perfil
+    public String getPerfil(){
+        return perfil;
+    }
+    public void setPefil(String _perfil){
+        this.perfil = _perfil;
+    }
 }
