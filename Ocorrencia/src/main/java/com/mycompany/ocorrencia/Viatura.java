@@ -14,6 +14,9 @@ public class Viatura {
     private String placa;
     private String status;
     
+    
+    
+    
     //Id viatura
     public int getIdViatura(){
         return idViatura;
